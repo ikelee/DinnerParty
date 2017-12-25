@@ -1,0 +1,69 @@
+[0m[[0mdebug[0m] [0mExecuting Native docker build --force-rm -t scalaplayskeleton:1.0 .[0m
+[0m[[0mdebug[0m] [0mWorking directory /Users/ikelee/Documents/scala-play-skeleton/target/docker/stage[0m
+[0m[[0minfo[0m] [0mSending build context to Docker daemon  50.18MB[0m
+[0m[[0minfo[0m] [0mStep 1/6 : FROM openjdk:latest[0m
+[0m[[0minfo[0m] [0mlatest: Pulling from library/openjdk[0m
+[0m[[0minfo[0m] [0m723254a2c089: Pulling fs layer[0m
+[0m[[0minfo[0m] [0mabe15a44e12f: Pulling fs layer[0m
+[0m[[0minfo[0m] [0m409a28e3cc3d: Pulling fs layer[0m
+[0m[[0minfo[0m] [0m503166935590: Pulling fs layer[0m
+[0m[[0minfo[0m] [0m043a12c29ea4: Pulling fs layer[0m
+[0m[[0minfo[0m] [0m303620452447: Pulling fs layer[0m
+[0m[[0minfo[0m] [0mc61f95baa024: Pulling fs layer[0m
+[0m[[0minfo[0m] [0m3f2018472a1f: Pulling fs layer[0m
+[0m[[0minfo[0m] [0ma25f8a69c882: Pulling fs layer[0m
+[0m[[0minfo[0m] [0m503166935590: Waiting[0m
+[0m[[0minfo[0m] [0m043a12c29ea4: Waiting[0m
+[0m[[0minfo[0m] [0m303620452447: Waiting[0m
+[0m[[0minfo[0m] [0mc61f95baa024: Waiting[0m
+[0m[[0minfo[0m] [0ma25f8a69c882: Waiting[0m
+[0m[[0minfo[0m] [0m3f2018472a1f: Waiting[0m
+[0m[[0minfo[0m] [0m409a28e3cc3d: Verifying Checksum[0m
+[0m[[0minfo[0m] [0m409a28e3cc3d: Download complete[0m
+[0m[[0minfo[0m] [0mabe15a44e12f: Verifying Checksum[0m
+[0m[[0minfo[0m] [0mabe15a44e12f: Download complete[0m
+[0m[[0minfo[0m] [0m043a12c29ea4: Verifying Checksum[0m
+[0m[[0minfo[0m] [0m043a12c29ea4: Download complete[0m
+[0m[[0minfo[0m] [0m303620452447: Verifying Checksum[0m
+[0m[[0minfo[0m] [0m303620452447: Download complete[0m
+[0m[[0minfo[0m] [0mc61f95baa024: Download complete[0m
+[0m[[0minfo[0m] [0m723254a2c089: Verifying Checksum[0m
+[0m[[0minfo[0m] [0m723254a2c089: Download complete[0m
+[0m[[0minfo[0m] [0ma25f8a69c882: Verifying Checksum[0m
+[0m[[0minfo[0m] [0ma25f8a69c882: Download complete[0m
+[0m[[0minfo[0m] [0m503166935590: Verifying Checksum[0m
+[0m[[0minfo[0m] [0m503166935590: Download complete[0m
+[0m[[0minfo[0m] [0m723254a2c089: Pull complete[0m
+[0m[[0minfo[0m] [0mabe15a44e12f: Pull complete[0m
+[0m[[0minfo[0m] [0m409a28e3cc3d: Pull complete[0m
+[0m[[0minfo[0m] [0m503166935590: Pull complete[0m
+[0m[[0minfo[0m] [0m043a12c29ea4: Pull complete[0m
+[0m[[0minfo[0m] [0m303620452447: Pull complete[0m
+[0m[[0minfo[0m] [0mc61f95baa024: Pull complete[0m
+[0m[[0minfo[0m] [0m3f2018472a1f: Verifying Checksum[0m
+[0m[[0minfo[0m] [0m3f2018472a1f: Download complete[0m
+[0m[[0minfo[0m] [0m3f2018472a1f: Pull complete[0m
+[0m[[0minfo[0m] [0ma25f8a69c882: Pull complete[0m
+[0m[[0minfo[0m] [0mDigest: sha256:18c9622a8dc67b608a2dd0178b4c5aebc0e2da9a656072c6e799cfc46cb96422[0m
+[0m[[0minfo[0m] [0mStatus: Downloaded newer image for openjdk:latest[0m
+[0m[[0minfo[0m] [0m ---> 7c57090325cc[0m
+[0m[[0minfo[0m] [0mStep 2/6 : WORKDIR /opt/docker[0m
+[0m[[0minfo[0m] [0m ---> bd7a4ca4b7e6[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 5ccf652fbd9a[0m
+[0m[[0minfo[0m] [0mStep 3/6 : ADD --chown=daemon:daemon opt /opt[0m
+[0m[[0minfo[0m] [0m ---> c9940d10b53c[0m
+[0m[[0minfo[0m] [0mStep 4/6 : USER daemon[0m
+[0m[[0minfo[0m] [0m ---> Running in 6118a7d0daab[0m
+[0m[[0minfo[0m] [0m ---> e86cc4ce9751[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container 6118a7d0daab[0m
+[0m[[0minfo[0m] [0mStep 5/6 : ENTRYPOINT bin/scalaplayskeleton[0m
+[0m[[0minfo[0m] [0m ---> Running in a62a4f0304ed[0m
+[0m[[0minfo[0m] [0m ---> 5f882e2111fb[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container a62a4f0304ed[0m
+[0m[[0minfo[0m] [0mStep 6/6 : CMD[0m
+[0m[[0minfo[0m] [0m ---> Running in ebab43ac5d16[0m
+[0m[[0minfo[0m] [0m ---> c39cf4443444[0m
+[0m[[0minfo[0m] [0mRemoving intermediate container ebab43ac5d16[0m
+[0m[[0minfo[0m] [0mSuccessfully built c39cf4443444[0m
+[0m[[0minfo[0m] [0mSuccessfully tagged scalaplayskeleton:1.0[0m
+[0m[[0minfo[0m] [0mBuilt image scalaplayskeleton:1.0[0m
