@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/ikelee/Documents/DinnerParty/conf/routes
-// @DATE:Mon Dec 25 13:22:46 EST 2017
+// @DATE:Sat Dec 30 11:25:59 EST 2017
 
 import play.api.routing.JavaScriptReverseRoute
 
@@ -11,7 +11,7 @@ import _root_.controllers.Assets.Asset
 // @LINE:6
 package controllers.javascript {
 
-  // @LINE:8
+  // @LINE:9
   class ReverseAsyncController(_prefix: => String) {
 
     def _defaultPrefix: String = {
@@ -19,7 +19,7 @@ package controllers.javascript {
     }
 
   
-    // @LINE:8
+    // @LINE:9
     def message: JavaScriptReverseRoute = JavaScriptReverseRoute(
       "controllers.AsyncController.message",
       """
@@ -45,6 +45,16 @@ package controllers.javascript {
       """
         function() {
           return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "status"})
+        }
+      """
+    )
+  
+    // @LINE:7
+    def createGame: JavaScriptReverseRoute = JavaScriptReverseRoute(
+      "controllers.HomeController.createGame",
+      """
+        function() {
+          return _wA({method:"GET", url:"""" + _prefix + { _defaultPrefix } + """" + "createGame"})
         }
       """
     )

@@ -1,7 +1,7 @@
 
 // @GENERATOR:play-routes-compiler
 // @SOURCE:/Users/ikelee/Documents/DinnerParty/conf/routes
-// @DATE:Mon Dec 25 13:22:46 EST 2017
+// @DATE:Sat Dec 30 11:25:59 EST 2017
 
 package controllers;
 

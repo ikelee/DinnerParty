@@ -4,7 +4,7 @@
 		module="scalaplayskeleton$sources_2.12"
 		revision="1.0"
 		status="integration"
-		publication="20171225132201"
+		publication="20171230112506"
 	/>
 	<configurations>
 		<conf name="universal" visibility="public" description=""/>

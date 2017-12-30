@@ -4,6 +4,7 @@
 # ~~~~
 
 GET     /status                       controllers.HomeController.status
+GET     /createGame                   controllers.HomeController.createGame
 
 GET     /asyncStatus                  controllers.AsyncController.message
 
